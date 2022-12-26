@@ -31,3 +31,8 @@ Route::namespace ('App\Http\Controllers')->group(function () {
     Route::get('/login', 'SiteController@login');
 
 });
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

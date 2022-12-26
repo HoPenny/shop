@@ -49,7 +49,8 @@
                     <div class="menu-wrapper">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="{{ url('/index')}}'"><img src="{{ asset('img/logo/logo.png') }}" alt=""></a>
+                            <a href="{{ url('/')}}"><img src="{{ asset('img/logo/logo.png') }}" alt=""></a>
+
                         </div>
                         <!-- Main-menu -->
                         <div class="main-menu d-none d-lg-block">
@@ -120,7 +121,7 @@
                             <div class="single-footer-caption mb-30">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="{{ url('/index')}}"><img src="{{ asset('img/logo/logo2_footer.png') }}" alt=""></a>
+                                    <a href="{{ url('/')}}"><img src="{{ asset('img/logo/logo2_footer.png') }}" alt=""></a>
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
