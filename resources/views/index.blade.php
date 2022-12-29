@@ -4,6 +4,7 @@
 @section('title','首頁')
 
 @section('main')
+
 <!--? slider Area Start -->
         <div class="slider-area ">
             <div class="slider-active">
@@ -23,7 +24,7 @@
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 d-none d-sm-block">
                                 <div class="hero__img" data-animation="bounceIn" data-delay=".4s">
-                                    <img src="{{ asset('img/hero/watch.png')}}" alt="" class=" heartbeat">
+                                    <img src="{{ asset('img/hero/watch.png') }}" alt="" class=" heartbeat">
                                 </div>
                             </div>
                         </div>
@@ -45,7 +46,7 @@
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 d-none d-sm-block">
                                 <div class="hero__img" data-animation="bounceIn" data-delay=".4s">
-                                    <img src="{{ asset('img/hero/watch.png')}}" alt="" class=" heartbeat">
+                                    <img src="{{ asset('img/hero/watch.png') }}" alt="" class=" heartbeat">
                                 </div>
                             </div>
                         </div>
@@ -69,7 +70,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-new-pro mb-30 text-center">
                             <div class="product-img">
-                                <img src="{{ asset('img/gallery/new_product1.png')}}" alt="">
+                                <img src="{{ asset('img/gallery/new_product1.png') }}" alt="">
                             </div>
                             <div class="product-caption">
                                 <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
@@ -80,7 +81,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-new-pro mb-30 text-center">
                             <div class="product-img">
-                                <img src="{{ asset('img/gallery/new_product2.png')}}" alt="">
+                                <img src="{{ asset('img/gallery/new_product2.png') }}" alt="">
                             </div>
                             <div class="product-caption">
                                 <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
@@ -91,7 +92,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-new-pro mb-30 text-center">
                             <div class="product-img">
-                                <img src="{{ asset('img/gallery/new_product3.png')}}" alt="">
+                                <img src="{{ asset('img/gallery/new_product3.png') }}" alt="">
                             </div>
                             <div class="product-caption">
                                 <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
@@ -109,24 +110,24 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-gallery mb-30">
-                            <div class="gallery-img big-img" style="background-image: url(/img/gallery/gallery1.png);"></div>
+                            <div class="gallery-img big-img" style="background-image: url( {{ asset('img/gallery/gallery1.png') }}"></div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-gallery mb-30">
-                            <div class="gallery-img big-img" style="background-image: url(/img/gallery/gallery2.png);"></div>
+                            <div class="gallery-img big-img" style="background-image: url( {{ asset('img/gallery/gallery2.png') }}"></div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-12">
                         <div class="row">
                             <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6">
                                 <div class="single-gallery mb-30">
-                                    <div class="gallery-img small-img" style="background-image: url(assets/img/gallery/gallery3.png);"></div>
+                                    <div class="gallery-img small-img" style="background-image: url( {{ asset('img/gallery/gallery3.png') }}"></div>
                                 </div>
                             </div>
                             <div class="col-xl-12 col-lg-12  col-md-6 col-sm-6">
                                 <div class="single-gallery mb-30">
-                                    <div class="gallery-img small-img" style="background-image: url(assets/img/gallery/gallery4.png);"></div>
+                                    <div class="gallery-img small-img" style="background-image: url( {{ asset('img/gallery/gallery4.png') }}"></div>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +153,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-popular-items mb-50 text-center">
                             <div class="popular-img">
-                                <img src="{{ asset('img/gallery/popular1.png')}}" alt="">
+                                <img src="{{ asset('img/gallery/popular1.png') }}" alt="">
                                 <div class="img-cap">
                                     <span>Add to cart</span>
                                 </div>
@@ -169,7 +170,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-popular-items mb-50 text-center">
                             <div class="popular-img">
-                                <img src="{{ asset('img/gallery/popular2.png')}}" alt="">
+                                <img src="{{ asset('img/gallery/popular2.png') }}" alt="">
                                 <div class="img-cap">
                                     <span>Add to cart</span>
                                 </div>
@@ -186,7 +187,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-popular-items mb-50 text-center">
                             <div class="popular-img">
-                                <img src="{{ asset('img/gallery/popular3.png')}}" alt="">
+                                <img src="{{ asset('img/gallery/popular3.png') }}" alt="">
                                 <div class="img-cap">
                                     <span>Add to cart</span>
                                 </div>
@@ -203,7 +204,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-popular-items mb-50 text-center">
                             <div class="popular-img">
-                                <img src="{{ asset('img/gallery/popular4.png')}}" alt="">
+                                <img src="{{ asset('img/gallery/popular4.png') }}" alt="">
                                 <div class="img-cap">
                                     <span>Add to cart</span>
                                 </div>
@@ -220,7 +221,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-popular-items mb-50 text-center">
                             <div class="popular-img">
-                                <img src="assets/img/gallery/popular5.png" alt="">
+                                <img src="{{ asset('img/gallery/popular5.png') }}" alt="">
                                 <div class="img-cap">
                                     <span>Add to cart</span>
                                 </div>
@@ -237,7 +238,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-popular-items mb-50 text-center">
                             <div class="popular-img">
-                                <img src="assets/img/gallery/popular6.png" alt="">
+                                <img src="{{ asset('img/gallery/popular6.png') }}" alt="">
                                 <div class="img-cap">
                                     <span>Add to cart</span>
                                 </div>
@@ -294,14 +295,14 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-10">
                         <div class="choice-watch-img mb-40">
-                            <img src="{{ asset('img/gallery/choce_watch1.png')}}" alt="">
+                            <img src="{{ asset('img/gallery/choce_watch1.png') }}" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-6 col-md-6 col-sm-10">
                         <div class="choice-watch-img mb-40">
-                            <img src="{{ asset('img/gallery/choce_watch2.png')}}" alt="">
+                            <img src="{{ asset('img/gallery/choce_watch2.png') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6">
